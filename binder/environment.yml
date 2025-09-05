@@ -8,6 +8,7 @@ channels:
   - conda-forge
 dependencies:
   # Jupyter dependencies
+  - jupyter-server<2.0.0
   - jupyterhub>=1.5,<2
   - jupyterlab>=3.2,<4
   - jupyter-resource-usage
